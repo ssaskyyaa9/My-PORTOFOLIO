@@ -1,5 +1,23 @@
 @import "tailwindcss";
 
+.font-kurale{ font-family: var(--font-kurale); }
+.font-lateef{ font-family: var(--font-lateef); }
+.font-leckerli{ font-family: var(--font-leckerli); }
+.font-lavishly{ font-family: var(--font-lavishly); }
+
+:root {
+  --merah: #930400;
+  --cream: #FEFBEE;
+  --coklat: #EDD7C6;
+}
+
+@layer utilities {
+  .vertical-text {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+  }
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -23,4 +41,87 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+@utility animate-kupu-terbang {
+  animation: jalurTerbang 8s ease-in-out infinite;
+}
+
+@utility animate-kepak-sayap-3d {
+  animation: kepakSayap3D 0.5s ease-in-out infinite;
+  transform-origin: center;
+}
+
+@keyframes jalurTerbang {
+  0% { transform: translate(0, 0) rotate(0deg); }
+  25% { transform: translate(15px, -25px) rotate(3deg); }
+  50% { transform: translate(-5px, -45px) rotate(-3deg); }
+  75% { transform: translate(-15px, -20px) rotate(1deg); }
+  100% { transform: translate(0, 0) rotate(0deg); }
+}
+
+@keyframes kepakSayap3D {
+  0%, 100% { 
+    transform: perspective(400px) rotateY(0deg); 
+  }
+  50% { 
+    transform: perspective(400px) rotateY(65deg); 
+  }
+}
+
+/* ---------------------------------------------- */
+
+@keyframes slideLeft {
+  from {
+    transform: translateX(40);
+  }
+  to {
+    transform: translateX(-40px);
+  }
+}
+
+@utility animate-skill-left {
+  animation: slideLeft 2s linear infinite alternate;
+}
+
+@keyframes slideRight {
+  from {
+    transform: translateX(-40);
+  }
+  to {
+    transform: translateX(40px);
+  }
+}
+
+/* ---------------------------------------------- */
+
+@utility animate-skill-right {
+  animation: slideRight 2s linear infinite alternate;
+}
+
+@keyframes arrowMove {
+  0% { transform: translateX(0) translateY(0) rotate(0deg); }
+  25% { transform: translateX(10px)  rotate(8deg); }
+  75% { transform: translateX(0px)  rotate(0deg); }
+  100% { transform: translateX(0) translateY(0) rotate(0deg); }
+}
+
+/* ---------------------------------------------- */
+
+@utility animate-arrow {
+  animation: arrowMove 2.5s ease-in-out infinite;
+}
+
+@keyframes floatIcon {
+  0%,100% {
+    transform: translateY(-8px);
+  }
+
+  50% {
+    transform: translateY(-12px);
+  }
+}
+
+@utility animate-float-icon {
+  animation: floatIcon .8s ease-in-out infinite;
 }
