@@ -28,6 +28,7 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --spacing-30: 7.5rem;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -124,4 +125,34 @@ body {
 
 @utility animate-float-icon {
   animation: floatIcon .8s ease-in-out infinite;
+}
+
+@keyframes wiggle {
+
+0%{
+transform:rotate(0deg);
+}
+
+25%{
+transform:rotate(-6deg);
+}
+
+50%{
+transform:rotate(6deg);
+}
+
+75%{
+transform:rotate(-4deg);
+}
+
+100%{
+transform:rotate(0deg);
+}
+
+}
+
+@utility animate-panah{
+
+animation:wiggle .8s ease-in-out infinite;
+
 }

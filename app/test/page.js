@@ -28,23 +28,23 @@ export default function Portfolio() {
         </div>
 
         <div className="flex flex-col items-center gap-15 w-full pt-17">
-         <a href="#" className="group w-8 h-8 relative">
+         <a href="https://github.com/ssaskyyaa9" className="group w-8 h-8 relative">
             <img src="/assets/github.png" alt="Github" className="group-hover:animate-float-icon w-full h-full object-contain transition-all duration-300 ease-out group-hover:scale-125 group-hover:-rotate-12 group-hover:-translate-y-2 group-hover:drop-shadow-xl" />
          </a>
 
-         <a href="#" className="group w-8 h-8 relative">
+         <a href="mailto:saskyyaa90@gmail.com" className="group w-8 h-8 relative">
             <img src="/assets/message.png" alt="Message" className=" group-hover:animate-float-icon w-full h-full object-contain transition-all duration-300 ease-out group-hover:scale-125 group-hover:rotate-12 group-hover:-translate-y-2 group-hover:drop-shadow-xl" />
          </a>
 
-         <a href="#" className="group w-8 h-8 relative">
+         <a href="https://wa.me/6285691596929" className="group w-8 h-8 relative">
             <img src="/assets/whatsapp.png" alt="Whatsapp" className="group-hover:animate-float-icon w-full h-full object-contain transition-all duration-300 ease-out group-hover:scale-125 group-hover:-rotate-12 group-hover:-translate-y-2 group-hover:drop-shadow-xl" />
          </a>
 
-         <a href="#" className="group w-8 h-8 relative">
+         <a href="https://telegram.me/ssqyaw" className="group w-8 h-8 relative">
             <img src="/assets/telegram.png" alt="Telegram" className="group-hover:animate-float-icon w-full h-full object-contain transition-all duration-300 ease-out group-hover:scale-125 group-hover:rotate-12 group-hover:-translate-y-2 group-hover:drop-shadow-xl" />
          </a>
 
-         <a href="#" className="group w-8 h-8 relative">
+         <a href="https://www.instagram.com/ssass_kyaa?igsh=MWJkMzFtaDM2dWU0Nw==" className="group w-8 h-8 relative">
             <img src="/assets/instagram.png" alt="Instagram" className="group-hover:animate-float-icon w-full h-full object-contain transition-all duration-300 ease-out group-hover:scale-125 group-hover:-rotate-12 group-hover:-translate-y-2 group-hover:drop-shadow-xl" />
          </a>
         </div>
@@ -242,7 +242,196 @@ export default function Portfolio() {
             </div>
            </div>
           </div>
+
+          <div className="relative">
+            <img src="/assets/kumbang.png" className="absolute -left-12 top-80 w-30 z-50 animate-ladybug" />
+          <div className="group -ml-6 -mt-10 w-80 rounded-3xl border border-[#930400] bg-[#FEFBEE] p-3 transition-all duration-300 hover:-translate-y-2" style={{ boxShadow: "5px 5px 0px #930400" }} >
+            <div className="overflow-hidden relative rounded-2xl border border-[#EDD7C6]">
+             <img src="/assets/laporapp.png" alt="LaporApp" className="w-full h-40 object-cover transition-all duration-500 group-hover:scale-110" />
+              <div className=" absolute inset-0 flex items-end justify-center pb-5 opacity-0 group-hover:opacity-100 transition-all duration-500 " >
+                <button className=" bg-[#930400] text-[#FEFBEE] px-5 py-2 rounded-full font-kurale text-sm shadow-lg translate-y-6 group-hover:translate-y-0 transition-all duration-500"> View Details </button>
+              </div>
+            </div>
+
+            <div className="flex items-center justify-between mt-4">
+             <h3 className="font-kurale text-3xl text-[#930400]"> LaporApp </h3>
+             <span className="bg-[#EDD7C6] text-[#930400] rounded-full px-3 py-1 text-xs font-kurale"> Web App </span>
+            </div>
+
+            <p className="font-kurale text-[#930400] text-base leading-8 mt-3 h-24"> Public complaint reporting system with dashboard and tracking. </p>
+            <div className="flex gap-3 pb-1 mt-">
+             <a href="#" className="flex-1 border border-[#930400] rounded-lg py-2 text-center font-kurale text-sm text-[#930400] transition hover:bg-[#930400] hover:text-[#FEFBEE]" > View Live </a>
+             <a href="#" className="flex-1 border border-[#930400] rounded-lg py-2 text-center font-kurale text-sm text-[#930400] transition hover:bg-[#930400] hover:text-[#FEFBEE]" > View Code </a>
+            </div>
+          </div>
+          </div>
+
+          <div className="group w-80 -mt-10 ml-70 rounded-3xl border border-[#930400] bg-[#FEFBEE] p-3 transition-all duration-300 hover:-translate-y-2" style={{ boxShadow: "5px 5px 0px #930400" }} >
+            <div className="overflow-hidden relative rounded-2xl border border-[#EDD7C6]">
+             <img src="/assets/laporapp.png" alt="LaporApp" className="w-full h-40 object-cover transition-all duration-500 group-hover:scale-110" />
+             <div className=" absolute inset-0 flex items-end justify-center pb-5 opacity-0 group-hover:opacity-100 transition-all duration-500 " >
+                <button className=" bg-[#930400] text-[#FEFBEE] px-5 py-2 rounded-full font-kurale text-sm shadow-lg translate-y-6 group-hover:translate-y-0 transition-all duration-500"> View Details </button>
+              </div>
+            </div>
+
+            <div className="flex items-center justify-between mt-4">
+             <h3 className="font-kurale text-3xl text-[#930400]"> LaporApp </h3>
+             <span className="bg-[#EDD7C6] text-[#930400] rounded-full px-3 py-1 text-xs font-kurale"> Web App </span>
+            </div>
+
+            <p className="font-kurale text-[#930400] text-base leading-8 mt-3 h-24"> Public complaint reporting system with dashboard and tracking. </p>
+            <div className="flex gap-3 pb-1 mt-">
+             <a href="#" className="flex-1 border border-[#930400] rounded-lg py-2 text-center font-kurale text-sm text-[#930400] transition hover:bg-[#930400] hover:text-[#FEFBEE]" > View Live </a>
+             <a href="#" className="flex-1 border border-[#930400] rounded-lg py-2 text-center font-kurale text-sm text-[#930400] transition hover:bg-[#930400] hover:text-[#FEFBEE]" > View Code </a>
+            </div>
+          </div>
+          
+          <div className="group w-80 -mt-10 ml-145 rounded-3xl border border-[#930400] bg-[#FEFBEE] p-3 transition-all duration-300 hover:-translate-y-2" style={{ boxShadow: "5px 5px 0px #930400" }} >
+            <div className="overflow-hidden relative rounded-2xl border border-[#EDD7C6]">
+             <img src="/assets/laporapp.png" alt="LaporApp" className="w-full h-40 object-cover transition-all duration-500 group-hover:scale-110" />
+             <div className=" absolute inset-0 flex items-end justify-center pb-5 opacity-0 group-hover:opacity-100 transition-all duration-500 " >
+                <button className=" bg-[#930400] text-[#FEFBEE] px-5 py-2 rounded-full font-kurale text-sm shadow-lg translate-y-6 group-hover:translate-y-0 transition-all duration-500"> View Details </button>
+              </div>
+            </div>
+
+            <div className="flex items-center justify-between mt-4">
+             <h3 className="font-kurale text-3xl text-[#930400]"> LaporApp </h3>
+             <span className="bg-[#EDD7C6] text-[#930400] rounded-full px-3 py-1 text-xs font-kurale"> Web App </span>
+            </div>
+
+            <p className="font-kurale text-[#930400] text-base leading-8 mt-3 h-24"> Public complaint reporting system with dashboard and tracking. </p>
+            <div className="flex gap-3 pb-1 mt-">
+             <a href="#" className="flex-1 border border-[#930400] rounded-lg py-2 text-center font-kurale text-sm text-[#930400] transition hover:bg-[#930400] hover:text-[#FEFBEE]" > View Live </a>
+             <a href="#" className="flex-1 border border-[#930400] rounded-lg py-2 text-center font-kurale text-sm text-[#930400] transition hover:bg-[#930400] hover:text-[#FEFBEE]" > View Code </a>
+            </div>
+          </div>
+
+          <div className="group mt-105 -ml-78 w-80 rounded-3xl border border-[#930400] bg-[#FEFBEE] p-3 transition-all duration-300 hover:-translate-y-2" style={{ boxShadow: "5px 5px 0px #930400" }} >
+            <div className="overflow-hidden relative rounded-2xl border border-[#EDD7C6]">
+             <img src="/assets/laporapp.png" alt="LaporApp" className="w-full h-40 object-cover transition-all duration-500 group-hover:scale-110" />
+             <div className=" absolute inset-0 flex items-end justify-center pb-5 opacity-0 group-hover:opacity-100 transition-all duration-500 " >
+                <button className=" bg-[#930400] text-[#FEFBEE] px-5 py-2 rounded-full font-kurale text-sm shadow-lg translate-y-6 group-hover:translate-y-0 transition-all duration-500"> View Details </button>
+              </div>
+            </div>
+
+            <div className="flex items-center justify-between mt-4">
+             <h3 className="font-kurale text-3xl text-[#930400]"> LaporApp </h3>
+             <span className="bg-[#EDD7C6] text-[#930400] rounded-full px-3 py-1 text-xs font-kurale"> Web App </span>
+            </div>
+
+            <p className="font-kurale text-[#930400] text-base leading-8 mt-3 h-24"> Public complaint reporting system with dashboard and tracking. </p>
+            <div className="flex gap-3 pb-1 mt-">
+             <a href="#" className="flex-1 border border-[#930400] rounded-lg py-2 text-center font-kurale text-sm text-[#930400] transition hover:bg-[#930400] hover:text-[#FEFBEE]" > View Live </a>
+             <a href="#" className="flex-1 border border-[#930400] rounded-lg py-2 text-center font-kurale text-sm text-[#930400] transition hover:bg-[#930400] hover:text-[#FEFBEE]" > View Code </a>
+            </div>
+          </div>
+
+          <div className="group mt-105 -ml-1 w-80 rounded-3xl border border-[#930400] bg-[#FEFBEE] p-3 transition-all duration-300 hover:-translate-y-2" style={{ boxShadow: "5px 5px 0px #930400" }} >
+            <div className="overflow-hidden relative rounded-2xl border border-[#EDD7C6]">
+             <img src="/assets/laporapp.png" alt="LaporApp" className="w-full h-40 object-cover transition-all duration-500 group-hover:scale-110" />
+             <div className=" absolute inset-0 flex items-end justify-center pb-5 opacity-0 group-hover:opacity-100 transition-all duration-500 " >
+                <button className=" bg-[#930400] text-[#FEFBEE] px-5 py-2 rounded-full font-kurale text-sm shadow-lg translate-y-6 group-hover:translate-y-0 transition-all duration-500"> View Details </button>
+              </div>
+            </div>
+
+            <div className="flex items-center justify-between mt-4">
+             <h3 className="font-kurale text-3xl text-[#930400]"> LaporApp </h3>
+             <span className="bg-[#EDD7C6] text-[#930400] rounded-full px-3 py-1 text-xs font-kurale"> Web App </span>
+            </div>
+
+            <p className="font-kurale text-[#930400] text-base leading-8 mt-3 h-24"> Public complaint reporting system with dashboard and tracking. </p>
+            <div className="flex gap-3 pb-1 mt-">
+             <a href="#" className="flex-1 border border-[#930400] rounded-lg py-2 text-center font-kurale text-sm text-[#930400] transition hover:bg-[#930400] hover:text-[#FEFBEE]" > View Live </a>
+             <a href="#" className="flex-1 border border-[#930400] rounded-lg py-2 text-center font-kurale text-sm text-[#930400] transition hover:bg-[#930400] hover:text-[#FEFBEE]" > View Code </a>
+            </div>
+          </div>
+
+          <div className="group relative mt-105 ml-74 w-80 rounded-3xl border border-[#930400] bg-[#FEFBEE] p-3 transition-all duration-300 hover:-translate-y-2" style={{ boxShadow: "5px 5px 0px #930400" }} >
+            <img src="/assets/bunga.png" alt="Bunga" className="absolute -right-17 top-68 z-50" style={{ width: "100px", height: "120px", }} />
+            <div className="overflow-hidden relative rounded-2xl border border-[#EDD7C6]">
+             <img src="/assets/laporapp.png" alt="LaporApp" className="w-full h-40 object-cover transition-all duration-500 group-hover:scale-110" />
+             <div className=" absolute inset-0 flex items-end justify-center pb-5 opacity-0 group-hover:opacity-100 transition-all duration-500 " >
+                <button className=" bg-[#930400] text-[#FEFBEE] px-5 py-2 rounded-full font-kurale text-sm shadow-lg translate-y-6 group-hover:translate-y-0 transition-all duration-500"> View Details </button>
+              </div>
+            </div>
+
+            <div className="flex items-center justify-between mt-4">
+             <h3 className="font-kurale text-3xl text-[#930400]"> LaporApp </h3>
+             <span className="bg-[#EDD7C6] text-[#930400] rounded-full px-3 py-1 text-xs font-kurale"> Web App </span>
+            </div>
+
+            <p className="font-kurale text-[#930400] text-base leading-8 mt-3 h-24"> Public complaint reporting system with dashboard and tracking. </p>
+            <div className="flex gap-3 pb-1 mt-">
+             <a href="#" className="flex-1 border border-[#930400] rounded-lg py-2 text-center font-kurale text-sm text-[#930400] transition hover:bg-[#930400] hover:text-[#FEFBEE]" > View Live </a>
+             <a href="#" className="flex-1 border border-[#930400] rounded-lg py-2 text-center font-kurale text-sm text-[#930400] transition hover:bg-[#930400] hover:text-[#FEFBEE]" > View Code </a>
+            </div>
+          </div>
         </div>
+
+      <div className="relative">
+        <div className="w-120 -ml-10 mt-20">
+          <h2 className="font-kurale text-2xl text-[#930400] mb-8"> Want to send a message? </h2>
+          <form action="https://formspree.io/f/mbljebwp" method="POST" className="flex flex-col gap-5">
+            <input type="text" name="name" placeholder="Your name..." className="w-full h-14 rounded-2xl bg-[#930400] px-5 text-[#FEFBEE] placeholder:text-[#FEFBEE]/80 outline-none" required />
+            <input type="email" name="email" placeholder="Your email..." className="w-full h-14 rounded-2xl bg-[#930400] px-5 text-[#FEFBEE] placeholder:text-[#FEFBEE]/80 outline-none" required />
+            <textarea name="message" placeholder="Message..." rows={5} className="w-full rounded-2xl bg-[#930400] px-5 py-4 text-[#FEFBEE] placeholder:text-[#FEFBEE]/80 outline-none resize-none" required />
+                
+            <button type="submit" className="absolute left-120 top-82 z-20 cursor-pointer transition duration-300 hover:scale-110 active:scale-95">
+             <img src="/assets/send.png" alt="Send" className="w-10 h-10" />
+            </button>
+          </form>
+        </div>
+
+        <img src="/assets/pita.png" alt="Pita" className="absolute left-113 top-2 w-22 z-22" />
+
+        <div className="ml-140 -mt-90 w-110 h-100 rounded-[28px] border border-[#E7D6C7] bg-[#FEFBEE] p-10" style={{ boxShadow: "8px 8px 0px #E7D6C7" }} >
+            <h2 className="font-lavishly text-[42px] text-[#930400] mb-8"> Let's Connect! </h2>
+            <div className="flex flex-col gap-7">
+
+            <a href="https://wa.me/6285691596929" target="_blank" rel="noopener noreferrer" className="group flex items-center gap-5 w-fit">
+                <img src="/assets/whatsapp.png" className="w-8 h-8 transition-transform duration-300 ease-out group-hover:scale-125 group-hover:-translate-y-2 group-hover:-rotate-12" />
+                <p className="font-kurale text-[20px] text-[#930400]"> +62 856 9159 6929 </p>
+            </a>
+
+            <a href="mailto:saskyyaa90@gmail.com" className="group flex items-center gap-5 w-fit">
+                <img src="/assets/message.png" className="w-8 h-8 transition-transform duration-300 ease-out group-hover:scale-125 group-hover:-translate-y-2 group-hover:rotate-12" />
+                <p className="font-kurale text-[20px] text-[#930400]"> saskyyaa90@gmail.com </p>
+            </a>
+
+            <a href="https://github.com/ssaskyyaa9" target="_blank" rel="noopener noreferrer" className="group flex items-center gap-5 w-fit">
+                <img src="/assets/github.png" className="w-8 h-8 transition-transform duration-300 ease-out group-hover:scale-125 group-hover:-translate-y-2 group-hover:-rotate-6" />
+                <p className="font-kurale text-[20px] text-[#930400]"> ssaskyyyaa9 </p>
+            </a>
+
+            <a href="https://www.google.com/maps/search/?api=1&query=Depok,+Jawa+Barat" target="_blank" rel="noopener noreferrer" className="group flex items-start gap-5 w-fit">
+                <img src="/assets/lokasi.png" className="w-8 h-8 mt-1 transition-transform duration-300 ease-out group-hover:scale-125 group-hover:-translate-y-2 group-hover:rotate-6" />
+                <p className="font-kurale text-[20px] text-[#930400] leading-8"> Depok, Jawa Barat - Indonesia </p>
+            </a>
+            </div>
+        </div>
+        
+        <div className="right-8 self-end w-24 ml-265 min-h-full align-self: flex-end -mt-100 bottom-0 rounded-2xl bg-[#930400] pt-13 pb-13 flex flex-col items-center justify-center">
+            <span className="font-leckerli text-[#FEFBEE] text-3x1">C</span>
+            <span className="font-leckerli text-[#FEFBEE] text-3x1 mt-2">o</span>
+            <span className="font-leckerli text-[#FEFBEE] text-3x1 mt-2">n</span>
+            <span className="font-leckerli text-[#FEFBEE] text-3x1 mt-2">t</span>
+            <span className="font-leckerli text-[#FEFBEE] text-3x1 mt-2">a</span>
+            <span className="font-leckerli text-[#FEFBEE] text-3x1 mt-2">c</span>
+            <span className="font-leckerli text-[#FEFBEE] text-3x1 mt-2">t</span>
+
+            <div className="h-10"></div>
+
+            <span className="font-leckerli text-[#FEFBEE] text-3x1 mt-2">M</span>
+            <span className="font-leckerli text-[#FEFBEE] text-3x1 mt-2">e</span>
+        </div>
+
+        <div className="absolute -left-10 top-104 w-135 border-t-2 border-dashed border-[#930400] pt-4">
+            <div className="flex items-center gap-3 whitespace-nowrap">
+                <img src="/assets/education.png" alt="Education" className="w-7 h-7" />
+                <p className="font-kurale text-[#930400] text-[16px]"> Taruna Bhakti Vocational High School, Depok <span className="mx-2">|</span> Software Engineering </p>
+            </div>
+        </div>
+      </div>
       </main>
     </div>
   );
