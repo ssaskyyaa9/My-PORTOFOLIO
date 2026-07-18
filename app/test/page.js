@@ -137,8 +137,8 @@ export default function Portfolio() {
             </div>
 
           <div className="lg:col-span-6 flex flex-col items-end space-y-8 relative">
-            <div className="relative w-[320px] h-[320px] mr-8">
-              <Image src="/assets/foto.png" alt="Saskya" fill className="object-contain" priority />
+            <div className="relative w-[330px] h-[330px] mr-8">
+              <Image src="/assets/foto1.png" alt="Saskya" fill className="object-contain" priority />
             </div>
 
             <div className="absolute left-20 top-56 w-24 h-24 pointer-events-none select-none" style={{ animation: 'jalurTerbang 7s ease-in-out infinite' }} >
@@ -247,7 +247,7 @@ export default function Portfolio() {
             <img src="/assets/kumbang.png" className="absolute -left-12 top-80 w-30 z-50 animate-ladybug" />
           <div className="group -ml-6 -mt-10 w-80 rounded-3xl border border-[#930400] bg-[#FEFBEE] p-3 transition-all duration-300 hover:-translate-y-2" style={{ boxShadow: "5px 5px 0px #930400" }} >
             <div className="overflow-hidden relative rounded-2xl border border-[#EDD7C6]">
-             <img src="/assets/laporapp.png" alt="LaporApp" className="w-full h-40 object-cover transition-all duration-500 group-hover:scale-110" />
+             <img src="/assets/Laporapp.png" alt="LaporApp" className="w-full h-40 object-cover transition-all duration-500 group-hover:scale-110" />
               <div className=" absolute inset-0 flex items-end justify-center pb-5 opacity-0 group-hover:opacity-100 transition-all duration-500 " >
                 <button className=" bg-[#930400] text-[#FEFBEE] px-5 py-2 rounded-full font-kurale text-sm shadow-lg translate-y-6 group-hover:translate-y-0 transition-all duration-500"> View Details </button>
               </div>
@@ -268,14 +268,14 @@ export default function Portfolio() {
 
           <div className="group w-80 -mt-10 ml-70 rounded-3xl border border-[#930400] bg-[#FEFBEE] p-3 transition-all duration-300 hover:-translate-y-2" style={{ boxShadow: "5px 5px 0px #930400" }} >
             <div className="overflow-hidden relative rounded-2xl border border-[#EDD7C6]">
-             <img src="/assets/laporapp.png" alt="LaporApp" className="w-full h-40 object-cover transition-all duration-500 group-hover:scale-110" />
+             <img src="/assets/pustaka.png" alt="LaporApp" className="w-full h-40 object-cover transition-all duration-500 group-hover:scale-110" />
              <div className=" absolute inset-0 flex items-end justify-center pb-5 opacity-0 group-hover:opacity-100 transition-all duration-500 " >
                 <button className=" bg-[#930400] text-[#FEFBEE] px-5 py-2 rounded-full font-kurale text-sm shadow-lg translate-y-6 group-hover:translate-y-0 transition-all duration-500"> View Details </button>
               </div>
             </div>
 
             <div className="flex items-center justify-between mt-4">
-             <h3 className="font-kurale text-3xl text-[#930400]"> LaporApp </h3>
+             <h3 className="font-kurale text-3xl text-[#930400]"> Pustaka Digital </h3>
              <span className="bg-[#EDD7C6] text-[#930400] rounded-full px-3 py-1 text-xs font-kurale"> Web App </span>
             </div>
 
@@ -288,14 +288,14 @@ export default function Portfolio() {
           
           <div className="group w-80 -mt-10 ml-145 rounded-3xl border border-[#930400] bg-[#FEFBEE] p-3 transition-all duration-300 hover:-translate-y-2" style={{ boxShadow: "5px 5px 0px #930400" }} >
             <div className="overflow-hidden relative rounded-2xl border border-[#EDD7C6]">
-             <img src="/assets/laporapp.png" alt="LaporApp" className="w-full h-40 object-cover transition-all duration-500 group-hover:scale-110" />
+             <img src="/assets/myshop.png" alt="LaporApp" className="w-full h-40 object-cover transition-all duration-500 group-hover:scale-110" />
              <div className=" absolute inset-0 flex items-end justify-center pb-5 opacity-0 group-hover:opacity-100 transition-all duration-500 " >
                 <button className=" bg-[#930400] text-[#FEFBEE] px-5 py-2 rounded-full font-kurale text-sm shadow-lg translate-y-6 group-hover:translate-y-0 transition-all duration-500"> View Details </button>
               </div>
             </div>
 
             <div className="flex items-center justify-between mt-4">
-             <h3 className="font-kurale text-3xl text-[#930400]"> LaporApp </h3>
+             <h3 className="font-kurale text-3xl text-[#930400]"> MYSHOP </h3>
              <span className="bg-[#EDD7C6] text-[#930400] rounded-full px-3 py-1 text-xs font-kurale"> Web App </span>
             </div>
 
@@ -308,14 +308,14 @@ export default function Portfolio() {
 
           <div className="group mt-105 -ml-78 w-80 rounded-3xl border border-[#930400] bg-[#FEFBEE] p-3 transition-all duration-300 hover:-translate-y-2" style={{ boxShadow: "5px 5px 0px #930400" }} >
             <div className="overflow-hidden relative rounded-2xl border border-[#EDD7C6]">
-             <img src="/assets/laporapp.png" alt="LaporApp" className="w-full h-40 object-cover transition-all duration-500 group-hover:scale-110" />
+             <img src="/assets/purehealth.png" alt="LaporApp" className="w-full h-40 object-cover transition-all duration-500 group-hover:scale-110" />
              <div className=" absolute inset-0 flex items-end justify-center pb-5 opacity-0 group-hover:opacity-100 transition-all duration-500 " >
                 <button className=" bg-[#930400] text-[#FEFBEE] px-5 py-2 rounded-full font-kurale text-sm shadow-lg translate-y-6 group-hover:translate-y-0 transition-all duration-500"> View Details </button>
               </div>
             </div>
 
             <div className="flex items-center justify-between mt-4">
-             <h3 className="font-kurale text-3xl text-[#930400]"> LaporApp </h3>
+             <h3 className="font-kurale text-3xl text-[#930400]"> PureHealth </h3>
              <span className="bg-[#EDD7C6] text-[#930400] rounded-full px-3 py-1 text-xs font-kurale"> Web App </span>
             </div>
 
@@ -328,7 +328,7 @@ export default function Portfolio() {
 
           <div className="group mt-105 -ml-1 w-80 rounded-3xl border border-[#930400] bg-[#FEFBEE] p-3 transition-all duration-300 hover:-translate-y-2" style={{ boxShadow: "5px 5px 0px #930400" }} >
             <div className="overflow-hidden relative rounded-2xl border border-[#EDD7C6]">
-             <img src="/assets/laporapp.png" alt="LaporApp" className="w-full h-40 object-cover transition-all duration-500 group-hover:scale-110" />
+             <img src="/assets/lapmob.png" alt="LaporApp" className="w-full h-40 object-cover transition-all duration-500 group-hover:scale-110" />
              <div className=" absolute inset-0 flex items-end justify-center pb-5 opacity-0 group-hover:opacity-100 transition-all duration-500 " >
                 <button className=" bg-[#930400] text-[#FEFBEE] px-5 py-2 rounded-full font-kurale text-sm shadow-lg translate-y-6 group-hover:translate-y-0 transition-all duration-500"> View Details </button>
               </div>
@@ -336,7 +336,7 @@ export default function Portfolio() {
 
             <div className="flex items-center justify-between mt-4">
              <h3 className="font-kurale text-3xl text-[#930400]"> LaporApp </h3>
-             <span className="bg-[#EDD7C6] text-[#930400] rounded-full px-3 py-1 text-xs font-kurale"> Web App </span>
+             <span className="bg-[#EDD7C6] text-[#930400] rounded-full px-3 py-1 text-xs font-kurale"> Mobile App </span>
             </div>
 
             <p className="font-kurale text-[#930400] text-base leading-8 mt-3 h-24"> Public complaint reporting system with dashboard and tracking. </p>
@@ -349,15 +349,15 @@ export default function Portfolio() {
           <div className="group relative mt-105 ml-74 w-80 rounded-3xl border border-[#930400] bg-[#FEFBEE] p-3 transition-all duration-300 hover:-translate-y-2" style={{ boxShadow: "5px 5px 0px #930400" }} >
             <img src="/assets/bunga.png" alt="Bunga" className="absolute -right-17 top-68 z-50" style={{ width: "100px", height: "120px", }} />
             <div className="overflow-hidden relative rounded-2xl border border-[#EDD7C6]">
-             <img src="/assets/laporapp.png" alt="LaporApp" className="w-full h-40 object-cover transition-all duration-500 group-hover:scale-110" />
+             <img src="/assets/pusmob.png" alt="LaporApp" className="w-full h-40 object-cover transition-all duration-500 group-hover:scale-110" />
              <div className=" absolute inset-0 flex items-end justify-center pb-5 opacity-0 group-hover:opacity-100 transition-all duration-500 " >
                 <button className=" bg-[#930400] text-[#FEFBEE] px-5 py-2 rounded-full font-kurale text-sm shadow-lg translate-y-6 group-hover:translate-y-0 transition-all duration-500"> View Details </button>
               </div>
             </div>
 
             <div className="flex items-center justify-between mt-4">
-             <h3 className="font-kurale text-3xl text-[#930400]"> LaporApp </h3>
-             <span className="bg-[#EDD7C6] text-[#930400] rounded-full px-3 py-1 text-xs font-kurale"> Web App </span>
+             <h3 className="font-kurale text-3xl text-[#930400]"> Pustaka Digital </h3>
+             <span className="bg-[#EDD7C6] text-[#930400] rounded-full px-3 py-1 text-xs font-kurale"> Mobile App </span>
             </div>
 
             <p className="font-kurale text-[#930400] text-base leading-8 mt-3 h-24"> Public complaint reporting system with dashboard and tracking. </p>
