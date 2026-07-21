@@ -247,7 +247,7 @@ export default function Portfolio() {
             <img src="/assets/kumbang.png" className="absolute -left-12 top-80 w-30 z-50 animate-ladybug" />
           <div className="group -ml-6 -mt-10 w-80 rounded-3xl border border-[#930400] bg-[#FEFBEE] p-3 transition-all duration-300 hover:-translate-y-2" style={{ boxShadow: "5px 5px 0px #930400" }} >
             <div className="overflow-hidden relative rounded-2xl border border-[#EDD7C6]">
-             <img src="/assets/Laporapp.png" alt="LaporApp" className="w-full h-40 object-cover transition-all duration-500 group-hover:scale-110" />
+             <img src="/assets/laporapp.png" alt="LaporApp" className="w-full h-40 object-cover transition-all duration-500 group-hover:scale-110" />
             </div>
 
             <div className="flex items-center justify-between mt-4">
