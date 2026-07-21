@@ -40,7 +40,7 @@ export default function Portfolio() {
             <img src="/assets/whatsapp.png" alt="Whatsapp" className="group-hover:animate-float-icon w-full h-full object-contain transition-all duration-300 ease-out group-hover:scale-125 group-hover:-rotate-12 group-hover:-translate-y-2 group-hover:drop-shadow-xl" />
          </a>
 
-         <a href="https://telegram.me/ssqyaw" className="group w-8 h-8 relative">
+         <a href="https://telegram.me/SaskyaTia" className="group w-8 h-8 relative">
             <img src="/assets/telegram.png" alt="Telegram" className="group-hover:animate-float-icon w-full h-full object-contain transition-all duration-300 ease-out group-hover:scale-125 group-hover:rotate-12 group-hover:-translate-y-2 group-hover:drop-shadow-xl" />
          </a>
 
@@ -248,9 +248,6 @@ export default function Portfolio() {
           <div className="group -ml-6 -mt-10 w-80 rounded-3xl border border-[#930400] bg-[#FEFBEE] p-3 transition-all duration-300 hover:-translate-y-2" style={{ boxShadow: "5px 5px 0px #930400" }} >
             <div className="overflow-hidden relative rounded-2xl border border-[#EDD7C6]">
              <img src="/assets/Laporapp.png" alt="LaporApp" className="w-full h-40 object-cover transition-all duration-500 group-hover:scale-110" />
-              <div className=" absolute inset-0 flex items-end justify-center pb-5 opacity-0 group-hover:opacity-100 transition-all duration-500 " >
-                <button className=" bg-[#930400] text-[#FEFBEE] px-5 py-2 rounded-full font-kurale text-sm shadow-lg translate-y-6 group-hover:translate-y-0 transition-all duration-500"> View Details </button>
-              </div>
             </div>
 
             <div className="flex items-center justify-between mt-4">
@@ -260,18 +257,15 @@ export default function Portfolio() {
 
             <p className="font-kurale text-[#930400] text-base leading-8 mt-3 h-24"> Public complaint reporting system with dashboard and tracking. </p>
             <div className="flex gap-3 pb-1 mt-">
-             <a href="#" className="flex-1 border border-[#930400] rounded-lg py-2 text-center font-kurale text-sm text-[#930400] transition hover:bg-[#930400] hover:text-[#FEFBEE]" > View Live </a>
-             <a href="#" className="flex-1 border border-[#930400] rounded-lg py-2 text-center font-kurale text-sm text-[#930400] transition hover:bg-[#930400] hover:text-[#FEFBEE]" > View Code </a>
+             <a href="https://www.figma.com/design/GyJguRiI6P5c0AXuzusez5/Untitled?t=vF6Jm2vUPudVH9Yc-1" className="flex-1 border border-[#930400] rounded-lg py-2 text-center font-kurale text-sm text-[#930400] transition hover:bg-[#930400] hover:text-[#FEFBEE]" > View Live </a>
+             <a href="https://github.com/ssaskyyaa9/LaporApp" className="flex-1 border border-[#930400] rounded-lg py-2 text-center font-kurale text-sm text-[#930400] transition hover:bg-[#930400] hover:text-[#FEFBEE]" > View Code </a>
             </div>
           </div>
           </div>
 
           <div className="group w-80 -mt-10 ml-70 rounded-3xl border border-[#930400] bg-[#FEFBEE] p-3 transition-all duration-300 hover:-translate-y-2" style={{ boxShadow: "5px 5px 0px #930400" }} >
             <div className="overflow-hidden relative rounded-2xl border border-[#EDD7C6]">
-             <img src="/assets/pustaka.png" alt="LaporApp" className="w-full h-40 object-cover transition-all duration-500 group-hover:scale-110" />
-             <div className=" absolute inset-0 flex items-end justify-center pb-5 opacity-0 group-hover:opacity-100 transition-all duration-500 " >
-                <button className=" bg-[#930400] text-[#FEFBEE] px-5 py-2 rounded-full font-kurale text-sm shadow-lg translate-y-6 group-hover:translate-y-0 transition-all duration-500"> View Details </button>
-              </div>
+             <img src="/assets/pusweb.png" alt="LaporApp" className="w-full h-40 object-cover transition-all duration-500 group-hover:scale-110" />
             </div>
 
             <div className="flex items-center justify-between mt-4">
@@ -279,19 +273,16 @@ export default function Portfolio() {
              <span className="bg-[#EDD7C6] text-[#930400] rounded-full px-3 py-1 text-xs font-kurale"> Web App </span>
             </div>
 
-            <p className="font-kurale text-[#930400] text-base leading-8 mt-3 h-24"> Public complaint reporting system with dashboard and tracking. </p>
+            <p className="font-kurale text-[#930400] text-base leading-8 mt-3 h-24">Digital library web service for book borrowing and returning processes. </p>
             <div className="flex gap-3 pb-1 mt-">
-             <a href="#" className="flex-1 border border-[#930400] rounded-lg py-2 text-center font-kurale text-sm text-[#930400] transition hover:bg-[#930400] hover:text-[#FEFBEE]" > View Live </a>
-             <a href="#" className="flex-1 border border-[#930400] rounded-lg py-2 text-center font-kurale text-sm text-[#930400] transition hover:bg-[#930400] hover:text-[#FEFBEE]" > View Code </a>
+             <a href="https://www.figma.com/design/zM3QfwiWf2ZtvJ2a5to7vG/Untitled?node-id=390-12&t=vF6Jm2vUPudVH9Yc-1" className="flex-1 border border-[#930400] rounded-lg py-2 text-center font-kurale text-sm text-[#930400] transition hover:bg-[#930400] hover:text-[#FEFBEE]" > View Live </a>
+             <a href="https://github.com/ssaskyyaa9/PUSTAKADIGITAL" className="flex-1 border border-[#930400] rounded-lg py-2 text-center font-kurale text-sm text-[#930400] transition hover:bg-[#930400] hover:text-[#FEFBEE]" > View Code </a>
             </div>
           </div>
           
           <div className="group w-80 -mt-10 ml-145 rounded-3xl border border-[#930400] bg-[#FEFBEE] p-3 transition-all duration-300 hover:-translate-y-2" style={{ boxShadow: "5px 5px 0px #930400" }} >
             <div className="overflow-hidden relative rounded-2xl border border-[#EDD7C6]">
              <img src="/assets/myshop.png" alt="LaporApp" className="w-full h-40 object-cover transition-all duration-500 group-hover:scale-110" />
-             <div className=" absolute inset-0 flex items-end justify-center pb-5 opacity-0 group-hover:opacity-100 transition-all duration-500 " >
-                <button className=" bg-[#930400] text-[#FEFBEE] px-5 py-2 rounded-full font-kurale text-sm shadow-lg translate-y-6 group-hover:translate-y-0 transition-all duration-500"> View Details </button>
-              </div>
             </div>
 
             <div className="flex items-center justify-between mt-4">
@@ -299,19 +290,16 @@ export default function Portfolio() {
              <span className="bg-[#EDD7C6] text-[#930400] rounded-full px-3 py-1 text-xs font-kurale"> Web App </span>
             </div>
 
-            <p className="font-kurale text-[#930400] text-base leading-8 mt-3 h-24"> Public complaint reporting system with dashboard and tracking. </p>
+            <p className="font-kurale text-[#930400] text-base leading-8 mt-3 h-24"> A simple e-commerce website displaying products </p>
             <div className="flex gap-3 pb-1 mt-">
-             <a href="#" className="flex-1 border border-[#930400] rounded-lg py-2 text-center font-kurale text-sm text-[#930400] transition hover:bg-[#930400] hover:text-[#FEFBEE]" > View Live </a>
-             <a href="#" className="flex-1 border border-[#930400] rounded-lg py-2 text-center font-kurale text-sm text-[#930400] transition hover:bg-[#930400] hover:text-[#FEFBEE]" > View Code </a>
+             <a href="https://www.figma.com/design/LF9hHQUivNzOBfz5oypUEx/Untitled?node-id=0-1&t=vF6Jm2vUPudVH9Yc-1" className="flex-1 border border-[#930400] rounded-lg py-2 text-center font-kurale text-sm text-[#930400] transition hover:bg-[#930400] hover:text-[#FEFBEE]" > View Live </a>
+             <a href="https://github.com/ssaskyyaa9/MYSHOP-e-commerce" className="flex-1 border border-[#930400] rounded-lg py-2 text-center font-kurale text-sm text-[#930400] transition hover:bg-[#930400] hover:text-[#FEFBEE]" > View Code </a>
             </div>
           </div>
 
           <div className="group mt-105 -ml-78 w-80 rounded-3xl border border-[#930400] bg-[#FEFBEE] p-3 transition-all duration-300 hover:-translate-y-2" style={{ boxShadow: "5px 5px 0px #930400" }} >
             <div className="overflow-hidden relative rounded-2xl border border-[#EDD7C6]">
              <img src="/assets/purehealth.png" alt="LaporApp" className="w-full h-40 object-cover transition-all duration-500 group-hover:scale-110" />
-             <div className=" absolute inset-0 flex items-end justify-center pb-5 opacity-0 group-hover:opacity-100 transition-all duration-500 " >
-                <button className=" bg-[#930400] text-[#FEFBEE] px-5 py-2 rounded-full font-kurale text-sm shadow-lg translate-y-6 group-hover:translate-y-0 transition-all duration-500"> View Details </button>
-              </div>
             </div>
 
             <div className="flex items-center justify-between mt-4">
@@ -319,19 +307,15 @@ export default function Portfolio() {
              <span className="bg-[#EDD7C6] text-[#930400] rounded-full px-3 py-1 text-xs font-kurale"> Web App </span>
             </div>
 
-            <p className="font-kurale text-[#930400] text-base leading-8 mt-3 h-24"> Public complaint reporting system with dashboard and tracking. </p>
+            <p className="font-kurale text-[#930400] text-base leading-8 mt-3 h-24"> A practical public health solution: consultations, hospitals, and medication. </p>
             <div className="flex gap-3 pb-1 mt-">
-             <a href="#" className="flex-1 border border-[#930400] rounded-lg py-2 text-center font-kurale text-sm text-[#930400] transition hover:bg-[#930400] hover:text-[#FEFBEE]" > View Live </a>
-             <a href="#" className="flex-1 border border-[#930400] rounded-lg py-2 text-center font-kurale text-sm text-[#930400] transition hover:bg-[#930400] hover:text-[#FEFBEE]" > View Code </a>
+             <a href="https://www.figma.com/design/YFh3YfTc38EqKC8BjGevLg/Untitled?node-id=0-1&t=vF6Jm2vUPudVH9Yc-1" className="flex-1 border border-[#930400] rounded-lg py-2 text-center font-kurale text-sm text-[#930400] transition hover:bg-[#930400] hover:text-[#FEFBEE]" > View Live </a>
             </div>
           </div>
 
           <div className="group mt-105 -ml-1 w-80 rounded-3xl border border-[#930400] bg-[#FEFBEE] p-3 transition-all duration-300 hover:-translate-y-2" style={{ boxShadow: "5px 5px 0px #930400" }} >
             <div className="overflow-hidden relative rounded-2xl border border-[#EDD7C6]">
              <img src="/assets/lapmob.png" alt="LaporApp" className="w-full h-40 object-cover transition-all duration-500 group-hover:scale-110" />
-             <div className=" absolute inset-0 flex items-end justify-center pb-5 opacity-0 group-hover:opacity-100 transition-all duration-500 " >
-                <button className=" bg-[#930400] text-[#FEFBEE] px-5 py-2 rounded-full font-kurale text-sm shadow-lg translate-y-6 group-hover:translate-y-0 transition-all duration-500"> View Details </button>
-              </div>
             </div>
 
             <div className="flex items-center justify-between mt-4">
@@ -341,8 +325,8 @@ export default function Portfolio() {
 
             <p className="font-kurale text-[#930400] text-base leading-8 mt-3 h-24"> Public complaint reporting system with dashboard and tracking. </p>
             <div className="flex gap-3 pb-1 mt-">
-             <a href="#" className="flex-1 border border-[#930400] rounded-lg py-2 text-center font-kurale text-sm text-[#930400] transition hover:bg-[#930400] hover:text-[#FEFBEE]" > View Live </a>
-             <a href="#" className="flex-1 border border-[#930400] rounded-lg py-2 text-center font-kurale text-sm text-[#930400] transition hover:bg-[#930400] hover:text-[#FEFBEE]" > View Code </a>
+             <a href="https://www.figma.com/design/GyJguRiI6P5c0AXuzusez5/Untitled?node-id=262-358&t=vF6Jm2vUPudVH9Yc-1" className="flex-1 border border-[#930400] rounded-lg py-2 text-center font-kurale text-sm text-[#930400] transition hover:bg-[#930400] hover:text-[#FEFBEE]" > View Live </a>
+             <a href="https://github.com/ssaskyyaa9/LaporApp" className="flex-1 border border-[#930400] rounded-lg py-2 text-center font-kurale text-sm text-[#930400] transition hover:bg-[#930400] hover:text-[#FEFBEE]" > View Code </a>
             </div>
           </div>
 
@@ -350,9 +334,6 @@ export default function Portfolio() {
             <img src="/assets/bunga.png" alt="Bunga" className="absolute -right-17 top-68 z-50" style={{ width: "100px", height: "120px", }} />
             <div className="overflow-hidden relative rounded-2xl border border-[#EDD7C6]">
              <img src="/assets/pusmob.png" alt="LaporApp" className="w-full h-40 object-cover transition-all duration-500 group-hover:scale-110" />
-             <div className=" absolute inset-0 flex items-end justify-center pb-5 opacity-0 group-hover:opacity-100 transition-all duration-500 " >
-                <button className=" bg-[#930400] text-[#FEFBEE] px-5 py-2 rounded-full font-kurale text-sm shadow-lg translate-y-6 group-hover:translate-y-0 transition-all duration-500"> View Details </button>
-              </div>
             </div>
 
             <div className="flex items-center justify-between mt-4">
@@ -360,10 +341,10 @@ export default function Portfolio() {
              <span className="bg-[#EDD7C6] text-[#930400] rounded-full px-3 py-1 text-xs font-kurale"> Mobile App </span>
             </div>
 
-            <p className="font-kurale text-[#930400] text-base leading-8 mt-3 h-24"> Public complaint reporting system with dashboard and tracking. </p>
+            <p className="font-kurale text-[#930400] text-base leading-8 mt-3 h-24"> Mobile digital library for book borrowing and return processes.</p>
             <div className="flex gap-3 pb-1 mt-">
-             <a href="#" className="flex-1 border border-[#930400] rounded-lg py-2 text-center font-kurale text-sm text-[#930400] transition hover:bg-[#930400] hover:text-[#FEFBEE]" > View Live </a>
-             <a href="#" className="flex-1 border border-[#930400] rounded-lg py-2 text-center font-kurale text-sm text-[#930400] transition hover:bg-[#930400] hover:text-[#FEFBEE]" > View Code </a>
+             <a href="https://www.figma.com/design/zM3QfwiWf2ZtvJ2a5to7vG/Untitled?node-id=436-90&t=vF6Jm2vUPudVH9Yc-1" className="flex-1 border border-[#930400] rounded-lg py-2 text-center font-kurale text-sm text-[#930400] transition hover:bg-[#930400] hover:text-[#FEFBEE]" > View Live </a>
+             <a href="https://github.com/ssaskyyaa9/PUSTAKADIGITAL" className="flex-1 border border-[#930400] rounded-lg py-2 text-center font-kurale text-sm text-[#930400] transition hover:bg-[#930400] hover:text-[#FEFBEE]" > View Code </a>
             </div>
           </div>
         </div>
@@ -385,8 +366,8 @@ export default function Portfolio() {
         <img src="/assets/pita.png" alt="Pita" className="absolute left-113 top-2 w-22 z-22" />
 
         <div className="ml-140 -mt-90 w-110 h-100 rounded-[28px] border border-[#E7D6C7] bg-[#FEFBEE] p-10" style={{ boxShadow: "8px 8px 0px #E7D6C7" }} >
-            <h2 className="font-lavishly text-[42px] text-[#930400] mb-8"> Let's Connect! </h2>
-            <div className="flex flex-col gap-7">
+          <h2 className="font-lavishly text-[42px] text-[#930400] mb-8"> Let's Connect! </h2>
+          <div className="flex flex-col gap-7">
 
             <a href="https://wa.me/6285691596929" target="_blank" rel="noopener noreferrer" className="group flex items-center gap-5 w-fit">
                 <img src="/assets/whatsapp.png" className="w-8 h-8 transition-transform duration-300 ease-out group-hover:scale-125 group-hover:-translate-y-2 group-hover:-rotate-12" />
